@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="mailto:correo@hotmail.com" method="post">
+    <label for="nomurs">Ingresa un usuario</label>
+    <input type="text" name="nomurs" placeholder="Usuario"><br><br>
+    <label for="contrasena">Contraseña</label>
+    <input type="password" name="contrasena"><br><br>
+    <label for="date">Fecha</label>
+    <input type="date" name="fecha"><br><br>
+    <label for="numero">Numero</label>
+    <input type="number" name="numero"><br><br>
+    <label for="telefono">Telefono</label>
+    <input type="tel" name="telefono"><br><br>
+    <label for="internet">Uso de internet</label><br>
+    <label for="casa">Casa</label>
+    <input type="checkbox" name="Casa">
+    <label for="escuela">Escuela</label>
+    <input type="checkbox" name="escuela">
+    <label for="otro">Otro</label>
+    <input type="checkbox" name="otros"><br><br>
+    <label for="Sexo">Marque su Sexo</label><br>
+    <input type="radio" name="sexo" value="Hombre">
+    <label for="Hombre">Hombre</label>
+    <input type="radio" name="sexo" value="Mujer"> 
+    <label for="Mujer">Mujer</label>
+    <input type="radio" name="sexo" value="No Binario">
+    <label for="binario">No Binario</label><br><br>
+    <label for="color">Colores</label>
+    <input type="color"><br><br>
+    <label for="listacolores">Lista de colores</label><br>
+    <select name="listacolores">
+        <option value="Rojo">Rojo</option>
+        <option value="Verde">Verde</option>
+        <option value="Azul">Azul</option>
+        <option value="Morado">Morado</option>
+    </select><br><br>
+    <label for="pais">Pais de origen</label>
+    <input list="paises" name="pais">
+    <datalist id="paises">
+        <option value="Mexico">
+            <option value="USA">
+                <option value="Canada"></option>
+                <option value="Prefiero no decirlo"></option>
+            </option>
+        </option>
+    </datalist>
+    <input type="submit" value="Enviar Informacion">
+      </form>
+</body>
+</html>
